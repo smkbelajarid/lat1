@@ -1,98 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Portfolio</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+
+    <title>Resep.id</title>
   </head>
   <body>
     <!-- navbar -->
-    <nav id="nav">
-      <div class="navbar">
-        <div class="container">
-          <!-- logo -->
-          <a href="#" class="logo">
-            <img src="img/img1.jpg" class="img-navbar" />
-          </a>
-          <!-- menu-btn -->
-          <!-- <input type="checkbox" class="menu-btn" id="menu-btn" />
-            <label for="menu-btn" class="menu-icon">
-              <span class="nav-icon"></span>
-            </label> -->
-          <!-- menu -->
-          <ul class="menu">
-            <li>
-              <a href="#">Home</a>
-              <a href="#about">About</a>
-              <a href="#contact">Contact</a>
+    <nav class="navbar navbar-expand-lg fixed-top nav-bg">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="img/1.jpg" alt="" width="40" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cari.html">Cari</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Masuk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Daftar</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <!-- akhir navbar -->
-    <!-- jumbotron -->
-    <section id="jumbotron">
-      <div class="container">
-        <img src="img/img1.jpg" alt="img1" class="img-jumbotron" />
-        <h1 class="judul-content">test</h1>
-        <p class="sub-content">Web Developer | Pelajar</p>
-      </div>
-    </section>
-    <!-- akhir jumbotron -->
+    <!-- akhir-navbar -->
     <!-- about -->
     <section id="about">
       <div class="container">
-        <h1 class="judul-about">About Me</h1>
-        <p class="p-about-1">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae recusandae odit id, cupiditate fuga sint quia cumque modi iste vel similique tenetur repellat et enim dolore inventore ipsum architecto. Recusandae! Lorem ipsum
-          dolor sit amet consectetur adipisicing elit. Dicta, et sapiente. Aut exercitationem perspiciatis modi tempore odio, qui soluta inventore delectus incidunt quaerat vitae optio molestias aliquid hic nam. Nobis!
-        </p>
-        <p class="p-about-2">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos minima nisi explicabo neque atque nihil ea ratione iusto, voluptatem repellat. Ab itaque, perferendis amet dignissimos excepturi nostrum ea explicabo eaque repellendus
-          aperiam quam quidem adipisci laboriosam, quo sunt facilis illum atque! Quasi quae sapiente eius, eos dolore ea culpa vero inventore fugiat eveniet ratione blanditiis itaque consectetur error dolores modi sed! Eius vitae suscipit
-          necessitatibus eum dolor architecto impedit in ipsum ullam, labore rerum laudantium delectus, sunt sapiente ducimus minus at non dolores! Consectetur tenetur hic animi. Nostrum sunt magnam veniam assumenda, fugit, et iure, ipsam
-          omnis placeat amet unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga minus tempora expedita, deserunt sequi perferendis nam veniam dolor quae! Voluptatibus cumque commodi necessitatibus, architecto dignissimos
-          libero error numquam veritatis est?
-        </p>
+        <div class="row justify-content-center">
+          <div class="col-md-7 header-content">
+            <div class="jumbotron">
+              <h1 class="display-4 mb-3 judul">Tempat Untuk Mendapatkan Resep Makanan Untuk Anda</h1>
+              <p class="p-about fw-0">Resep.id adalah website yang menyediakan resep olahan makanan. Tak hanya makanan kami juga memberikan tips tentang bagaimana untuk memilih bahan agar mendapatkan hasil masakan yang memuaskan</p>
+              <div class="button-jumbotron">
+                <a class="btn-satu btn-dark btn-lg text-decoration-none fw-bold" href="#" role="button">Resep</a>
+                <a class="btn-dua btn-light btn-lg text-decoration-none fw-bold btn-large" href="#" role="button">Review</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="model-img text-end">
+              <img src="img/1.jpg" alt="tata" class="model" />
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <!-- akhir about -->
-    <!-- contact -->
-    <section id="contact">
+    <!-- tips -->
+    <section id="tips">
       <div class="container">
-        <h1 class="judul-contact">Contact Me</h1>
-        <form action="" class="form">
-          <label for="nama">Nama Lengkap</label>
-          <br />
-          <input type="text" name="nama" id="nama" class="form-list" />
-          <br />
-          <label for="email">Email </label>
-          <br />
-          <input type="email" name="email" id="email" class="form-list" />
-          <br />
-          <label for="pesan">Pesan </label>
-          <br />
-          <input type="textarea" name="pesan" id="pesan" class="form-list-pesan" />
-          <button class="btn-kirim">
-            <a href="">Kirim</a>
-          </button>
-        </form>
+        <div class="row justify-content-center">
+          <div class="col-md-6 text-center">
+            <h1 class="tips-h1">Dapatkan Hasil Yang Baik</h1>
+            <p class="tips-p">Guna mendapatkan hasil masakan yang baik kita perlu memestikan Kebersihan,Kondisi Bahan & Kondisi hati kita saat memasak</p>
+          </div>
+        </div>
+        <div class="row justify-content-center text-center">
+          <div class="col-md-4">
+            <div class="tips-card">
+              <img src="img/1.jpg" alt="img1" class="tips-img" />
+              <h3 class="tips-h3">Kebersihan</h3>
+              <p>Kebersihan Adalah hal yang harus di perhatikan dalam emembuat makanan. Kenapa karena jika cara memasak yang kotor akan mempengaruhi rasa dari makanan</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="tips-card">
+              <img src="img/1.jpg" alt="img1" class="tips-img" />
+              <h3 class="tips-h3">Kondisi Bahan</h3>
+              <p>Selahin kebersihan kondisi bahan juga harus di perhatikan. Karena segala bahan yang segar sangat mempengaruhi dari rasa yang dihasilkan</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="tips-card">
+              <img src="img/1.jpg" alt="img1" class="tips-img" />
+              <h3 class="tips-h3">Mood</h3>
+              <p>Kebersihan, Kondisi bahan sudah, Jika kita tidak ada mood atau tidak enjoy dalam memasak. Akan sama saja membuat rasa menjadi tidak enak</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-    <!-- akhir-contact -->
-    <!-- footer -->
-    <footer id="footer">
+    <!-- akhir tips -->
+    <!-- andalan -->
+    <section id="andalan">
       <div class="container">
-        <h1 class="judul-footer">
-          Build with <span class="love">love</span> by<span><a href="" class="a-footer">test</a></span
-          >.
-        </h1>
-        <p class="p-footer">Copyright &copy; 2021</p>
+        <div class="row justify-content-center">
+          <div class="col-md-6 text-center">
+            <h1 class="andalan-h1">Resep Terfavorit</h1>
+            <p class="andalan-p">Beberapa resep yang terfavoritt</p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <div class="card-container">
+              <img src="img/2.jpg" alt="img1" class="card-img" />
+              <div class="card-body">
+                <h3 class="card-h3">Babi Kecap</h3>
+                <p class="card-p">Seperti namanya babi kecap adalah olahan makanan yang bahan dasarnya dari babi</p>
+                <a href="content.html" class="card-a">Kunjungi ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card-container">
+              <img src="img/2.jpg" alt="img1" class="card-img" />
+              <div class="card-body">
+                <h3 class="card-h3">Babi Guling</h3>
+                <p class="card-p">Seperti namanya babi guling adalah olahan makanan yang bahan dasarnya dari babi</p>
+                <a href="#" class="card-a">Kunjungi ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card-container">
+              <img src="img/2.jpg" alt="img1" class="card-img" />
+              <div class="card-body">
+                <h3 class="card-h3">Ayam Woku</h3>
+                <p class="card-p">Seperti namanya ayam woku adalah olahan makanan yang bahan dasarnya dari ayam</p>
+                <a href="#" class="card-a">Kunjungi ></a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </footer>
-    <!-- akhir - footer -->
+    </section>
+    <!-- akhir andalan -->
+    <!-- review -->
+    <section id="review">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6 text-center">
+            <h1 class="andalan-h1">Testimonial</h1>
+            <p class="andalan-p">Hasil review dari beberapa orang yang sudah mencoba resep</p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div id="myCarousel" class="carousel slide carousel-dark" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="container">
+                  <div class="carousel-caption container-slide">
+                    <div class="row justify-content-center">
+                      <div class="col-md-6">
+                        <img src="img/1.jpg" alt="a" class="img-review" />
+                      </div>
+                      <div class="col-md-6 text-start">
+                        <h3 class="review-h3">“Mantap resep nya. Saya sangat puas dengan hasilnya”</h3>
+
+                        <h1 class="review-h1">Bu Dewi</h1>
+                        <p class="review-p">Ibu Rumah tangga</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="container">
+                  <div class="carousel-caption container-slide">
+                    <div class="row justify-content-center">
+                      <div class="col-md-6">
+                        <img src="img/1.jpg" alt="a" class="img-review" />
+                      </div>
+                      <div class="col-md-6 text-start">
+                        <h3 class="review-h3">“Mantap resep nya. Saya sangat puas dengan hasilnya”</h3>
+
+                        <h1 class="review-h1">Bu Dian</h1>
+                        <p class="review-p">Ibu Rumah tangga</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="container">
+                  <div class="carousel-caption container-slide">
+                    <div class="row justify-content-center">
+                      <div class="col-md-6">
+                        <img src="img/1.jpg" alt="a" class="img-review" />
+                      </div>
+                      <div class="col-md-6 text-start">
+                        <h3 class="review-h3">“Mantap resep nya. Saya sangat puas dengan hasilnya”</h3>
+
+                        <h1 class="review-h1">Bu Jawa</h1>
+                        <p class="review-p">Ibu Rumah tangga</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir review -->
+    <!-- cta -->
+    <section id="cta">
+      <div class="container">
+        <div class="row justify-content-evenly">
+          <div class="col-md-6">
+            <h3 class="cta-h3">Tertarik Dengan Resep.ID ?</h3>
+          </div>
+          <div class="col-md-3 tulis">
+            <p class="cta-p">Punya resep makanan ?</p>
+            <a class="btn-cta-1 btn-dark btn-lg text-decoration-none fw-bold" href="#" role="button">Tulis Resep</a>
+          </div>
+          <div class="col-md-3 review">
+            <p>Merasa Terbantu ?</p>
+            <a class="btn-cta-2 btn-light btn-lg text-decoration-none fw-bold btn-large" href="#" role="button">Review Resep </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir cta -->
+    <!-- footer -->
+    <section id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center mt-3">
+            <h2>
+              <span class="ceated-span">Created With</span> <span class="love-span"><i class="bi bi-heart-fill"></i></span> <span class="by-span">By Widanta. </span>
+            </h2>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-2">
+          <div class="col-md-3">
+            <div class="footer-img">
+              <img src="gambar/footer_img.png" alt="logo" />
+            </div>
+            <div class="footer-text mt-3">
+              <p>Terima kasih telah mau berkunjung di website yang sederhana ini</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer-judul mt-1">
+              <h2>Kunjungi</h2>
+            </div>
+            <div class="footer-text mt-3">
+              <a href="https://goo.gl/maps/1AyDpHgoVP5MvUxQ8"
+                ><p><i class="bi bi-geo-alt-fill"></i> Jalan Sulatri No 14 Kesiman, Derpasar Denpasar Timur, Bali</p></a
+              >
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer-judul mt-1">
+              <h2>Buissnies</h2>
+            </div>
+            <div class="footer-text mt-3">
+              <p>
+                <a href="#"><i class="bi bi-envelope-fill"></i> Widanta66@gmail.com</a><br />
+                <a href="https://wa.me/+6287784793721"><i class="bi bi-telephone-fill"></i> +62 87 784 793 721</a>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer-judul mt-1">
+              <h2>Follow</h2>
+            </div>
+            <div class="footer-text mt-3">
+              <p>
+                <a href="https://www.instagram.com/widantaa_"><i class="bi bi-instagram"></i> Widantaa_</a> <a href="https://www.facebook.com/imade.widanta.5"><i class="bi bi-facebook"></i> Made Widanta</a> <br />
+                <a href="https://www.youtube.com/channel/UCT-EcPYl-tJ9elP_RKibUNg/featured?view_as=subscriber"><i class="bi bi-youtube"></i> Widanta 66</a> <a href="https://github.com/Widanta"><i class="bi bi-github"></i> Widanta</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir footer -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
