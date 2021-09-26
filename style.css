@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+/* navbar */
+.nav-bg {
+  background-color: #e87c18;
+}
+
+.nav-link {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* akhir navbar */
+/* jumbotron */
+.jumbotron {
+  margin-top: 250px;
+}
+
+.judul {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.model {
+  margin-top: 200px;
+  width: 300px;
+}
+
+.btn-satu {
+  background-color: #e87c18;
+  padding: 5px 30px;
+}
+
+.btn-dua {
+  background-color: transparent;
+  padding: 4px 29px;
+  border: 1px solid #e87c18;
+}
+/* akhir jumbotron */
+/* tips */
+#tips {
+  margin-top: 180px;
+}
+
+.tips-h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.tips-p {
+  font-size: 18px;
+  margin-top: 16px;
+  margin-bottom: 64px;
+}
+
+.tips-img {
+  width: 200px;
+  height: 200px;
+}
+
+.tips-h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+/* akhir tips */
+/* andalan */
+#andalan {
+  margin-top: 160px;
+}
+
+.andalan-h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.andalan-p {
+  font-size: 18px;
+  margin-top: 16px;
+  margin-bottom: 64px;
+}
+
+.card-container {
+  background-color: white;
+  border-radius: 15px;
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+.card-h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 24px;
+  text-align: center;
+}
+
+.card-p {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.card-a {
+  text-decoration: none;
+  margin-top: 42px;
+  display: block;
+  text-align: end;
+  color: #8f8f8f;
+  font-weight: 700;
+}
+/* akhir andalan */
+/* review */
+#review {
+  margin-top: 160px;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 32rem;
+}
+
+.carousel-inner {
+  height: 500px;
+}
+
+.img-review {
+  width: 200px;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  display: block;
+  margin-left: auto;
+}
+
+.container-slide {
+  margin-bottom: 100px;
+}
+
+.review-p,
+.review-h3,
+.review-h1 {
+  color: black;
+}
+
+.review-h3 {
+  margin-top: 24px;
+  font-size: 18px;
+}
+
+.review-h1 {
+  font-size: 24px;
+  margin-top: 48px;
+}
+
+.review-p {
+  color: #8f8f8f;
+  font-size: 16px;
+  font-weight: 700;
+}
+/* akhir review */
+/* cta */
+#cta {
+  margin-top: 160px;
+}
+#cta .container {
+  background-color: #8f8f8f;
+  display: block;
+  width: 82%;
+  height: 130px;
+  border-radius: 15px;
+}
+
+.cta-h3 {
+  line-height: 130px;
+  margin-left: 20px;
+  color: white;
+}
+
+.tulis {
+  font-size: 18px;
+  margin-top: 20px;
+  color: white;
+}
+
+.review {
+  font-size: 18px;
+  margin-top: 20px;
+  color: white;
+}
+
+.btn-cta-1 {
+  background-color: #e87c18;
+  padding: 5px 30px;
+}
+
+.btn-cta-2 {
+  background-color: transparent;
+  padding: 4px 29px;
+  border: 1px solid #e87c18;
+  color: white;
+}
+
+/* akhir cta */
+/* footer */
+#footer {
+  background-color: black;
+  height: 165px;
+  overflow: hidden;
+  margin-top: 160px;
+}
+
+#footer h2 {
+  color: white;
+  font-family: "kanit", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #e87c18;
+}
+
+.ceated-span {
+  color: white;
+}
+
+.love-span {
+  color: red;
+}
+
+.by-span {
+  color: white;
+}
+
+#footer .footer-img img {
+  height: 40px;
+}
+
+#footer .footer-text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+#footer .footer-text p a {
+  text-decoration: none;
+  color: white;
+}
+
+#footer .footer-text a {
+  text-decoration: none;
+}
+/* akhir footer */
